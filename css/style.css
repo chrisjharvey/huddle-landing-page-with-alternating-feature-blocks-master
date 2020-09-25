@@ -7,6 +7,15 @@
 	box-sizing: border-box;
 }
 
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -28,11 +37,14 @@ body {
 	border-radius: 30px;
 	background-color: #fff;
 	border: none;
+	outline: none;
 	box-shadow: 0px 2px 10px hsla(192, 100%, 9%, 0.2);
 	cursor: pointer;
 	font-size: 16px;
 	font-weight: 700;
 	padding: 15px 70px;
+	text-decoration: none;
+	color: hsl(192, 100%, 9%);
 }
 
 .hero__img {
